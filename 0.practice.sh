@@ -5,5 +5,5 @@ NAME2=$2
 
 
 echo NAME1:"hello ${NAME2}"
-echo NAME2:"Hai ${NAME2}"
+echo NAME2:"Hai ${NAME1}"
 
