@@ -25,4 +25,9 @@
 
 # fi
 
-echo "hello nam"
+# echo "hello nam"
+
+
+
+echo Name1: "hello ${Name2}"
+echo Name2: "hai ${Name1}"
