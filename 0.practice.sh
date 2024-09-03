@@ -8,17 +8,15 @@
 # echo NAME2:"Hai ${NAME1}"
 
 
-NUMBER=$1
+# NUMBER=$1
 
-if [ $NUMBER -lt 20 ];
+if [ $1 -lt 20 ];
 
 then
 echo "my name is rithvik-naidu. iam from vijayawada"
 
-fi
+else
 
-if [ $NUMBER -gt 20 ];
-
-then echo "my name is namratha. iam rithvik's mom. iam from poranki"
+ echo "my name is namratha. iam rithvik's mom. iam from poranki"
 
 fi
