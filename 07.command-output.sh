@@ -4,6 +4,6 @@
 
 # echo "Today's date: $DATE"
  
-DATE=$(date +%F)
+DATE=$(date +%F+%H+%M+%S)
 
 echo "yesterday's date: $DATE"
