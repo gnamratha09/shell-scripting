@@ -6,4 +6,4 @@
  
 DATE=$(date +%F)
 
-echo "yesterday's date: $date"
+echo "yesterday's date: $DATE"
