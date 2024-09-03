@@ -10,17 +10,19 @@
 
 # NUMBER=$1
 
-if [ $1 -le 20 ];
+# if [ $1 -le 20 ];
 
-then
-echo "my name is rithvik-naidu. iam from vijayawada"
+# then
+# echo "my name is rithvik-naidu. iam from vijayawada"
 
-else [ $1 -le 30 ];
+# else [ $1 -le 30 ];
 
- echo "my name is namratha. iam rithvik's mom. iam from poranki"
+#  echo "my name is namratha. iam rithvik's mom. iam from poranki"
  
- else
+#  else
 
- echo "my name is ajay. iam from nellore and king follower"
+#  echo "my name is ajay. iam from nellore and king follower"
 
-fi
+# fi
+
+echo "hello nam"
