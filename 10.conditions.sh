@@ -11,7 +11,7 @@
 # fi
 
 if
-    [$1 -gt 20]
+    [ $1 -gt 20 ]
 then
     echo "my name is charitha. iam in florida. i started learning devops"
 
