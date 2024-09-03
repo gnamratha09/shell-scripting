@@ -29,5 +29,5 @@
 
 
 
-echo "hello ${Name1}"
-echo "hai ${Name2}"
+echo "hello ${1}"
+echo "hai ${2}"
