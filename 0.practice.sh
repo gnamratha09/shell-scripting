@@ -10,13 +10,17 @@
 
 # NUMBER=$1
 
-if [ $1 -lt 20 ];
+if [ $1 -le 20 ];
 
 then
 echo "my name is rithvik-naidu. iam from vijayawada"
 
-else
+elif [ $1 -le 30 ];
 
  echo "my name is namratha. iam rithvik's mom. iam from poranki"
+ 
+ else 
+
+ echo "my name is ajay. iam from nellore and king follower"
 
 fi
