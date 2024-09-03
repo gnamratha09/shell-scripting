@@ -10,14 +10,14 @@
 
 NUMBER=$1
 
-if [ $NUMBER - lt 20 ];
+if [ $NUMBER -lt 20 ];
 
 then
 echo "my name is rithvik-naidu. iam from vijayawada"
 
 fi
 
-if [ $NUMBER -gr 20 ];
+if [ $NUMBER -gt 20 ];
 
 then echo "my name is namratha. iam rithvik's mom. iam from poranki"
 
