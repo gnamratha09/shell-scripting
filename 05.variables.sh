@@ -17,9 +17,15 @@
 # echo "hello $name. welcome to the shell"
 
 
-read -p "enter your name" name
-read -p "enter your age" age
-read -p "enter your city" city
+# read -p "enter your name" name
+# read -p "enter your age" age
+# read -p "enter your city" city
+
+# set -- $name $age $city
+
+# echo "hello $1, you are $2 years old and your are from $3".
+
+read -p "enter your name age city" name age city
 
 set -- $name $age $city
 
