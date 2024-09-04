@@ -21,4 +21,6 @@ read -p "enter your name" name
 read -p "enter your age" age
 read -p "enter your city" city
 
-echo "hello$1, you are $2 years old and your are from $3".
+set -- $name $age $city
+
+echo "hello $1, you are $2 years old and your are from $3".
