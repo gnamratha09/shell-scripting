@@ -30,3 +30,9 @@ read -p "enter your name age city" name age city
 set -- $name $age $city
 
 echo "hello $1, you are $2 years old and your are from $3".
+
+echo "enter your name city age"
+
+read name city age
+
+
