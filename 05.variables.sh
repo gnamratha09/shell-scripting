@@ -12,6 +12,13 @@
 # echo "Password entered is: $PASSWORD"
 
 
-read -p "enter your name" name
+# read -p "enter your name" name
 
-echo "hello $name. welcome to the shell"
+# echo "hello $name. welcome to the shell"
+
+
+read -p "enter your name" name
+read -p "enter your age" age
+read -p "enter your city" city
+
+echo "hello$1, you are $2 years old and your are from $3".
