@@ -41,13 +41,13 @@
 
 echo "please enter your name"
 
-read -s
+read -s username
 
 echo "entered your name is: $username"
 
 echo "please enter your password"
 
-read -s
+read -s password
 
 echo "enterd your password is: $password"
 
