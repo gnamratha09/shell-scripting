@@ -13,4 +13,4 @@ X=nam
 Y=Mouni
 
 echo "nam: hello ${Y}, good morning"
-echo "$Y: hey ${X}, hey very good morning"
+echo "mouni: hey ${X}, hey very good morning"
