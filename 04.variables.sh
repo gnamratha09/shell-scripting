@@ -12,8 +12,6 @@
 # echo "hello $1"
 # echo "hai $2"
 
-X=$1
-Y=$2
 
 echo "$1: hello $2, good morning"
 echo "$2: hey $1, hey very good morning"
