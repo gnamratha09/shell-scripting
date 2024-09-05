@@ -8,6 +8,10 @@
 
 # echo "Total of $NUMBER1 and $NUMBER2 is: $SUM"
 
-SUM=$(($1+$2))
+# SUM=$(($1+$2))
 
-echo "total 0f $1 and $2 is: $SUM" 
+# echo "total 0f $1 and $2 is: $SUM" 
+
+divide=$(($1/$2))
+
+echo "total of $1 and $2 is: $divide"
