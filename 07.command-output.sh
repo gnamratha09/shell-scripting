@@ -9,6 +9,10 @@
 
 # echo "yesterday's date: $DATE"
 
-DATE=$(date)
+# DATE=$(date)
 
-echo "Today's date: $DATE"
+# echo "Today's date: $DATE"
+
+current_date=`date`
+
+echo "today date is: $current_date"
