@@ -12,7 +12,7 @@
 group=("nam" "anvi" "banvi" "danvi")
 
 echo "first name is: ${group[0]}"
-echo "second name is: ${group[2]}"
-echo "third name is: ${group[3]}"
-echo "fourth name is: ${group[4]}"
+echo "second name is: ${group[1]}"
+echo "third name is: ${group[2]}"
+echo "fourth name is: ${group[3]}"
 echo "first name is: ${group[@]}"
