@@ -9,6 +9,10 @@
 
 # echo "First fruit is: ${FRUITS[@]}"
 
-echo "first fruit is: ${1}"
-echo "second fruit is: ${2}"
-echo "third fruit is: ${3}"
+group=("nam" "anvi" "banvi" "danvi")
+
+echo "first name is: ${group[0]}"
+echo "second name is: ${group[2]}"
+echo "third name is: ${group[3]}"
+echo "fourth name is: ${group[4]}"
+echo "first name is: ${group[@]}"
