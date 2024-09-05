@@ -10,11 +10,13 @@
 
 # read -s PASSWORD
 # echo "Password entered is: $PASSWORD"
+# --------------
 
 
 # read -p "enter your name" name
 
 # echo "hello $name. welcome to the shell"
+# ----------------
 
 
 # read -p "enter your name" name
@@ -24,6 +26,7 @@
 # set -- $name $age $city
 
 # echo "hello $1, you are $2 years old and your are from $3".
+# --------------------
 
 # read -p "enter your name age city" name age city
 
@@ -31,8 +34,20 @@
 
 # echo "hello $1, you are $2 years old and your are from $3".
 
-echo "enter your name city age"
+# echo "enter your name city age"
 
-read name city age
+# # read name city age
+# ----------
 
+echo "please enter your name"
+
+read -s
+
+echo "entered your name is: $username"
+
+echo "please enter your password"
+
+read -s
+
+echo "enterd your password is: $password"
 
