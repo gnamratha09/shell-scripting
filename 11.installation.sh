@@ -55,7 +55,7 @@ permission () {
     sudo su -
 } 
 
-if [ $ root_user -ne 0 ] 
+if [ $root_user -ne 0 ] 
 then 
     echo "if you are not root user run the root user command"
     permission ()
