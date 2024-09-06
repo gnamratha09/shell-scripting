@@ -11,5 +11,5 @@
 # echo "PID of last background command: $!
 
 
-echo "All variables passed to the script: $@"
+# echo "All variables passed to the script: $@"
 echo "Number of variables passed: $#"
