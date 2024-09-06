@@ -7,8 +7,8 @@
 # echo "Current working directory: $PWD"
 # echo "Home directory of current user: $HOME"
 # echo "PID of the script executing now: $$"
-# sleep 100 &
-# echo "PID of last background command: $!
+sleep 100 &
+echo "PID of last background command: $!
 
 
 # echo "All variables passed to the script: $@"
@@ -17,4 +17,4 @@
 # echo "Current working directory: $PWD"
 # echo "Home directory of current user: $HOME"
 # echo "PID of the script executing now: $$"
-sleep 100 &
+# sleep 100 &
