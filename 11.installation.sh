@@ -51,9 +51,6 @@
 #!/bin/bash
 
 root_user=$(id -u)
-permission () {
-    sudo su -
-} 
 
 if [ $root_user -ne 0 ] 
 then 
