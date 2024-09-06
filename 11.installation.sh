@@ -55,17 +55,23 @@ root_user=$(id -u)
 if [ $root_user -ne 0 ] 
 then 
     echo "if you are not root user run the root user command"
-    permission ()
-    
-    if [ $? -ne 0 ]
-    then 
-        echo "failed to become root user"
-        exit 1
-    else
-        echo "successful login"
-    fi
+    exit 1
 else
     echo "alredy root user"
 fi
 
-    
+dnf list installed git
+if [ $? -ne 0 ]
+then
+    echo "git is not installed, install"
+    dnf instll git
+    if [ $? -ne 0 ]
+    then 
+        echo "git installation failed"
+        exit 1
+    else
+        echo "git install success"
+    fi
+else 
+    echo "git is already installed"
+fi
