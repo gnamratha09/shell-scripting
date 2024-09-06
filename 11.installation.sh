@@ -80,7 +80,7 @@ dnf list installed mysql
 if [ $? -ne 0 ]
 then
     echo "mysqld is not installed, install"
-    dnf instll mysql
+    dnf instll mysql -y
     if [ $? -ne 0 ]
     then 
         echo "mysql installation failed"
