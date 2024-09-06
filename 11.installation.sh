@@ -64,9 +64,10 @@ then
     then 
         echo "failed to become root user"
         exit 1
-    else 
+    else
         echo "successful login"
-else 
+    fi
+else
     echo "alredy root user"
 fi
 
