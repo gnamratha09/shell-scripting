@@ -10,11 +10,21 @@
 #     echo "Given number: $NUMBER is less than 20"
 # fi
 
-if
-    [ $1 -gt 20 ]
-then
-    echo "my name is nam. iam in florida. i started learning devops"
+# if
+#     [ $1 -gt 20 ]
+# then
+#     echo "my name is nam. iam in florida. i started learning devops"
 
-else
-    echo "my name is namratha. iam from vijayawada"
+# else
+#     echo "my name is namratha. iam from vijayawada"
+# fi
+
+name=$1
+
+if [ $name == namratha ]
+then 
+    echo "true"
+
+else 
+    echo "false"
 fi
